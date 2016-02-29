@@ -19,8 +19,12 @@ Provisioning a new site
 * See gunicorn-upstart.template.conf
 * Again replace site name with the appropriate name
 
-[Somewhere in here we are missing the actual installation of Gunicorn,
-which is done with pip in the virtualenv.]
+## Gunicorn
+
+Somewhere in here we are missing the actual installation of Gunicorn,
+which is done with pip in the virtualenv.  For now gunicorn.conf is
+going in the SITENAME directory (see below).  That is probably not the
+right place for it.
 
 ## Folder structure:
 
